@@ -3,13 +3,15 @@
 A robust, modern starter template for building cross-platform desktop applications with Electron, TypeScript, and Vite.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Electron](https://img.shields.io/badge/electron-35.0.2-blue.svg)
-![TypeScript](https://img.shields.io/badge/typescript-4.5.4-blue.svg)
-![Vite](https://img.shields.io/badge/vite-5.4.14-blue.svg)
+![Electron](https://img.shields.io/badge/electron-35.0.3-blue.svg)
+![Vite](https://img.shields.io/badge/vite-6.2.2-blue.svg)
+![TypeScript](https://img.shields.io/badge/typescript-5.8.2-blue.svg)
+![ESLint](https://img.shields.io/badge/eslint-9.22.0-blue.svg)
+![Node](https://img.shields.io/badge/node->=18-blue.svg)
 
 ## 🚀 Features
 
-- **Modern Stack**: Electron 35, TypeScript 4.5, and Vite 5.4
+- **Modern Stack**: Electron 35, TypeScript 5, and Vite 6
 - **Type Safety**: Full TypeScript integration throughout the codebase
 - **Fast Development**: Hot reloading with Vite for rapid development
 - **Secure Architecture**: Proper process isolation with security best practices
@@ -167,3 +169,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 - [Vite Documentation](https://vitejs.dev/guide/)
 - [Electron Forge Documentation](https://www.electronforge.io/)
+
+## 🙏 Acknowledgments
+
+This project was bootstrapped using [Electron Forge](https://github.com/electron/forge)'s `vite-typescript` template:
+```bash
+npx create-electron-app@latest electron-app-starter --template=vite-typescript
+```
+
+Special thanks to:
+- The [Electron Forge](https://www.electronforge.io/) team for providing an excellent toolset for Electron development
+- The maintainers of the [vite-typescript template](https://www.electronforge.io/templates/vite-+-typescript) for creating a robust starting point for modern Electron applications
